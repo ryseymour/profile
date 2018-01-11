@@ -1,62 +1,43 @@
-# [Start Bootstrap - 2 Col Portfolio](https://startbootstrap.com/template-overviews/2-col-portfolio/)
+![Quicksilver](images/qs.png)
 
-[2 Col Portfolio](https://startbootstrap.com/template-overviews/2-col-portfolio/) is a two column portfolio layout template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/).
+# Quicksilver
+A free, simple, (mostly) material-design template for the web.
 
-## Preview
+[See demo](https://jacksonhayes.me)
 
-[![2 Col Portfolio Preview](https://startbootstrap.com/assets/img/templates/2-col-portfolio.jpg)](https://blackrockdigital.github.io/startbootstrap-2-col-portfolio/)
+## Supported Browsers:
+All?
 
-**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-2-col-portfolio/)**
+## Getting Started:
+- First, [Download the latest release](https://github.com/jacksonhvisuals/quicksilver/releases/latest) directly from GitHub. 
 
-## Status
+- You'll be presented with a number of files. The stuff you want to concern yourself with are index.html, and two folders: /json, and /images. 
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-2-col-portfolio/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/startbootstrap-2-col-portfolio.svg)](https://www.npmjs.com/package/startbootstrap-2-col-portfolio)
-[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-2-col-portfolio.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-2-col-portfolio)
-[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-2-col-portfolio/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-2-col-portfolio)
-[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-2-col-portfolio/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-2-col-portfolio?type=dev)
+- Throw a SQUARE image of yourself, your logo, whatever, inside /images. In index.html, edit the src value for profileImage to point to that profile image. 
 
-## Download and Installation
+- Replace "Your name" with... your name. 
+- Replace the little description under that with some description about yourself. 
+- Then a little lower, feel free to change the firstCategoryText with whatever type of work you specialize in. Or you can leave it as it is. Doesn't make a difference to me. 
+- Edit the href value of the Contact Button. It should be equal to href="mailto:[YOUR EMAIL ADDRESS]".
 
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/2-col-portfolio/)
-* Install via npm: `npm i startbootstrap-2-col-portfolio`
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-2-col-portfolio.git`
-* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-2-col-portfolio)
+- Also very important in index.html is going to be the METADATA. Up inside the head tag, edit the dummy content in the meta tags with real data. 
 
-## Usage
+- Add a favicon from realfavicongenerator.net. 
 
-### Basic Usage
+- After that, open up the /json folder and take a look at links.json. Should be fairly straightforward, but here's a little explanation: 'name' is the actual TEXT that will show up for that specific link. 'color' is the color of the icon that will be next to your TEXT. 'icon' is the name of the icon from materialdesignicons.com. Make sure you get the correct spelling for the icon (you don't need the 'mdi-' part, the script automatically adds that). url is... the URL. 
 
-After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
+- After you've edited the links.json file, you're ready to move on to items.json. This is pretty similar to the links.json file. A couple things to note, however. First, you'll need to supply an image for each item. Second, you HAVE to have all of said images match in EXACT dimensions. I suggest 1920x1080. If it's 1920x1081, things break. It's just a constraint of the MaterializeCSS framework that we're using.
 
-### Advanced Usage
+- If you need to delete or add a link or work-item to your new Quicksilver website, it's super easy, thanks to the JSON implementation.
 
-After installation, run `npm install` and then run `gulp dev` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
+- After you feel like your website is ready to hit production, HIT THAT (figurative) UPLOAD BUTTON!
 
-## Bugs and Issues
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-2-col-portfolio/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/2-col-portfolio/).
+## Changelog
+For changelogs, check out [the Releases section of Quicksilver](https://github.com/jacksonhvisuals/quicksilver/releases)
 
-## Custom Builds
+## Contributing
+Simply fork, make your changes/contributions, and create a pull request!
 
-You can hire Start Bootstrap to create a custom build of any template, or create something from scratch using Bootstrap. For more information, visit the **[custom design services page](https://startbootstrap.com/bootstrap-design-services/)**.
-
-## About
-
-Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
-
-* https://startbootstrap.com
-* https://twitter.com/SBootstrap
-
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
-
-* http://davidmiller.io
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
-
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
-## Copyright and License
-
-Copyright 2013-2017 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-2-col-portfolio/blob/gh-pages/LICENSE) license.
+## Credits
+Thanks to Lumiq Creative for design suggestions and the fancy-shmancy image!
